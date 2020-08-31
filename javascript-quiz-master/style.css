@@ -1,0 +1,95 @@
+body {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	background: #717781;
+}
+
+
+
+#quiz {
+	
+	background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(70,252,117,1) 100%);
+
+	width: 49.8%;
+	border-radius: 20px;
+	margin-left: 25%;
+	text-align: center;
+	height: 80vh;
+	float: left;
+	overflow: scroll;
+	}
+
+
+
+#textbox {
+	text-align: center;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	width: 50%;
+	margin: 0 auto;
+	padding: 1%;
+
+}
+
+
+#button {
+	background: rgb(63,94,251);
+	background: linear-gradient(90deg,rgba(70,252,117,1)  0%, rgba(63,94,251,1) 100%);
+	border: 1px solid rgb(226, 225, 230);
+	border-radius: 5px;
+	padding: 10px 0;
+	color: black;
+	font-size: 16px;
+	transition-duration: 1s;
+	margin: 3% auto;
+	width: 52%;
+}
+
+
+
+#button:hover {
+	
+	background: rgb(63,94,251);
+	background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(70,252,117,1) 100%);
+	
+	color: white;
+	cursor: pointer;
+
+}
+
+#after_submit {
+	
+	background: rgb(2,0,36);
+background: linear-gradient(357deg, rgba(2,0,36,1) 0%,  rgba(70,252,117,1) 57%, rgba(0,212,255,1) 100%);
+	text-align: center;
+	width: 0%;
+	border-radius: 20px;
+	float: right;
+	height: 80vh;
+	font-size: 30px;
+
+
+}
+
+#picture {
+	width: 90%;
+	border-radius: 6px;
+	
+}
+
+.m{
+	background: rgb(63,94,251);
+	background: linear-gradient(90deg,rgba(70,252,117,1)  0%, rgba(63,94,251,1) 100%);
+	border: 1px solid rgb(226, 225, 230);
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+	font-size: 16px;
+	transition-duration: 1s;
+	
+	width: 52%;
+	margin: 1%;
+}
+
