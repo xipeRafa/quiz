@@ -1,4 +1,6 @@
 
+
+
 function check(){
 	var question1 = document.quiz.question1.value;
 	var question2 = document.quiz.question2.value;
@@ -30,13 +32,13 @@ function check(){
 		document.quiz.question1.style.backgroundColor = "rgb(180,58,82)";
 		} 
 
-	if (question2 == "yo he estado") {
+	if (question2 == "yo he estado" ) {
 		correct++;
 		document.quiz.question2.style.backgroundColor = "rgb(58,180,87)";
 	}else{
 		document.quiz.question2.style.backgroundColor = "rgb(180,58,82)";
 	}
-	if (question3 == "yo estare") {
+	if (question3 == "yo estare" || "yo sere") {
 		correct++;
 		document.quiz.question3.style.backgroundColor = "rgb(58,180,87)";
 	}else{
@@ -229,4 +231,8 @@ function check(){
 
 	document.getElementById("picture").src = pictures[score];
 	}
+	
+
+
+	
 	
